@@ -3,7 +3,7 @@
 # Our mission
 “Bon Voyage team is trying to provide a high level models of the reservation/booking system to build reusable in different platforms, maintainable with low cost and self-explained software product line while adopting the best practices of Model- Driven software Development.”
 
-#System description
+# System description
 
 Online reservation systems are one of the trending systems that are widely used by different categories of clients. The real-time booking, the availability and the variety of services they provide are top features of their success. However, online reservation might sometimes not be practical as it seems to be. For example, if we consider a real life scenario for booking a flight. Even if this task is supposed to last few minutes, generally a client may spend an hour surfing between the different online reservation systems of each company and comparing the offers. In this case, online reservation won’t be a very pleasant experience and there is no guarantee for the client that he chose the best or cheapest offer. Moreover, it is more practical for a client to book all the services from one system such as booking a flight, renting a car and finding a hotel room for his stay.
 In order to facilitate and reduce the time of online reservation task, we propose “Bon Voyage” which is an online reservation system that provides services to manage the reservation/booking of any reservation type of products ( flights, hotel , concert tickets …).
