@@ -10,9 +10,7 @@
 
   Once an internet user access to our system there are three scenarios: 
     - The first scenario is that he doesn't have an account he can then whether just use the website without creating one or he decides  to create it in this case his informations will be added to the database. 
-    
     - The second scenario is that he has an account he will then login with his registered credentials then he can obviously operate the CRUD operations to edit his profile, view his profile or delete it.
-    
     - The third scenario is that the internet user is an admin of the system in this case he can in addition to all the functions operated by a normal customer , he can manage clients , add clients and delete clients. 
     
     
