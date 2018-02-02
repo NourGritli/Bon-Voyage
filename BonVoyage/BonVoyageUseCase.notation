@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/gmfdiag/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_co1nwAfNEeiN8YXa-N_XRQ" type="UseCase" name="useCase" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_fkKwcAfNEeiN8YXa-N_XRQ" type="Actor_Shape">
+    <children xmi:type="notation:DecorationNode" xmi:id="_fkv_QAfNEeiN8YXa-N_XRQ" type="Actor_NameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fkwmUAfNEeiN8YXa-N_XRQ" y="15"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fkxNYAfNEeiN8YXa-N_XRQ" type="Actor_StereotypeLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fkxNYQfNEeiN8YXa-N_XRQ" x="20" y="100"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fkx0cAfNEeiN8YXa-N_XRQ" type="Actor_QualifiedNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fkx0cQfNEeiN8YXa-N_XRQ" x="20" y="80"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_fkx0cgfNEeiN8YXa-N_XRQ" type="Actor_FloatingNameLabel">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_fkybgAfNEeiN8YXa-N_XRQ" y="15"/>
+    </children>
+    <element xmi:type="uml:Actor" href="BonVoyageUseCase.uml#_fjez8AfNEeiN8YXa-N_XRQ"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fkKwcQfNEeiN8YXa-N_XRQ" x="98" y="132"/>
+  </children>
+  <styles xmi:type="notation:StringValueStyle" xmi:id="_co1nwQfNEeiN8YXa-N_XRQ" name="diagram_compatibility_version" stringValue="1.3.0"/>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_co1nwgfNEeiN8YXa-N_XRQ"/>
+  <styles xmi:type="style:PapyrusDiagramStyle" xmi:id="_co1nwwfNEeiN8YXa-N_XRQ" diagramKindId="org.eclipse.papyrus.uml.diagram.useCase">
+    <owner xmi:type="uml:Model" href="BonVoyageUseCase.uml#_W8H8kAfNEeiN8YXa-N_XRQ"/>
+  </styles>
+  <element xmi:type="uml:Model" href="BonVoyageUseCase.uml#_W8H8kAfNEeiN8YXa-N_XRQ"/>
+</notation:Diagram>
