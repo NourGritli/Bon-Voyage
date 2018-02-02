@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_W8H8kAfNEeiN8YXa-N_XRQ" name="BonVoyageUseCase">
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_W8H8kAfNEeiN8YXa-N_XRQ" name="BonVoyageUseCase">
   <packageImport xmi:type="uml:PackageImport" xmi:id="_XO5HkAfNEeiN8YXa-N_XRQ">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
   <packagedElement xmi:type="uml:Actor" xmi:id="_fjez8AfNEeiN8YXa-N_XRQ" name="Actor1"/>
+  <packagedElement xmi:type="uml:UseCase" xmi:id="_9GIuoAfPEeiN8YXa-N_XRQ" name="search for flight"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_BHE0gAfQEeiN8YXa-N_XRQ" memberEnd="_BHUsIAfQEeiN8YXa-N_XRQ _BHiukAfQEeiN8YXa-N_XRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BHRo0AfQEeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BHS28AfQEeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BHUsIAfQEeiN8YXa-N_XRQ" name="search for flight" type="_9GIuoAfPEeiN8YXa-N_XRQ" association="_BHE0gAfQEeiN8YXa-N_XRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_BHiukAfQEeiN8YXa-N_XRQ" name="actor1" type="_fjez8AfNEeiN8YXa-N_XRQ" association="_BHE0gAfQEeiN8YXa-N_XRQ"/>
+  </packagedElement>
 </uml:Model>
