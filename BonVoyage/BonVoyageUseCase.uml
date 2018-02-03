@@ -12,36 +12,129 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_BHUsIAfQEeiN8YXa-N_XRQ" name="search for flight" type="_9GIuoAfPEeiN8YXa-N_XRQ" association="_BHE0gAfQEeiN8YXa-N_XRQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_BHiukAfQEeiN8YXa-N_XRQ" name="actor1" type="_fjez8AfNEeiN8YXa-N_XRQ" association="_BHE0gAfQEeiN8YXa-N_XRQ"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Actor" xmi:id="_Ouv9IAhqEeiTCai_Fl4dkA" name="Unrigestered Actor"/>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_Ouv9IAhqEeiTCai_Fl4dkA" name="Online Customer"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_U83FMAhqEeiTCai_Fl4dkA" name="Fill the sign up form"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_bkNzsAhqEeiTCai_Fl4dkA" name="Actor2"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_cCqDMAhqEeiTCai_Fl4dkA" name="Package1">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_md9kcAhqEeiTCai_Fl4dkA" name="Create new account">
-      <include xmi:type="uml:Include" xmi:id="_md9kcQhqEeiTCai_Fl4dkA" addition="_U83FMAhqEeiTCai_Fl4dkA"/>
-      <include xmi:type="uml:Include" xmi:id="_3rEJoAhqEeiTCai_Fl4dkA" addition="_nVg3gAhqEeiTCai_Fl4dkA"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_nVg3gAhqEeiTCai_Fl4dkA" name="Fill the sign up form"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_-XKOMAhqEeiTCai_Fl4dkA" name="View Available transport list">
+  <packagedElement xmi:type="uml:Package" xmi:id="_cCqDMAhqEeiTCai_Fl4dkA" name="Online Reservation System">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-XKOMAhqEeiTCai_Fl4dkA" name="View Available service liste">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FG7R0AhrEeiTCai_Fl4dkA" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_XAn3QAhrEeiTCai_Fl4dkA" name="ExtensionPoint2"/>
+      <include xmi:type="uml:Include" xmi:id="_m6vzYAj0EeiN8YXa-N_XRQ" addition="_Cg5FcAj0EeiN8YXa-N_XRQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_-wq6YAhqEeiTCai_Fl4dkA" name="View Available Accomodations list">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QJFXsAhrEeiTCai_Fl4dkA" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__B6bYAhqEeiTCai_Fl4dkA" name="View available activities list">
-      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_PBJfQAhrEeiTCai_Fl4dkA" name="ExtensionPoint1"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_a7JqUAjzEeiN8YXa-N_XRQ" name="Book a service">
+      <extend xmi:type="uml:Extend" xmi:id="_Drk6cAj1EeiN8YXa-N_XRQ" extendedCase="_yGvxwAj0EeiN8YXa-N_XRQ" extensionLocation="_DrmIkAj1EeiN8YXa-N_XRQ"/>
+      <include xmi:type="uml:Include" xmi:id="_zkOR0AjzEeiN8YXa-N_XRQ" addition="_fVgVwAjzEeiN8YXa-N_XRQ"/>
+      <include xmi:type="uml:Include" xmi:id="_9dT20AjzEeiN8YXa-N_XRQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
+      <include xmi:type="uml:Include" xmi:id="_BQexAAj1EeiN8YXa-N_XRQ" addition="_Cg5FcAj0EeiN8YXa-N_XRQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_B_UnsAhrEeiTCai_Fl4dkA" name="Select an item">
-      <extend xmi:type="uml:Extend" xmi:id="_PBI4MAhrEeiTCai_Fl4dkA" extendedCase="__B6bYAhqEeiTCai_Fl4dkA" extensionLocation="_PBJfQAhrEeiTCai_Fl4dkA"/>
-      <extend xmi:type="uml:Extend" xmi:id="_QJEwoAhrEeiTCai_Fl4dkA" extendedCase="_-wq6YAhqEeiTCai_Fl4dkA" extensionLocation="_QJFXsAhrEeiTCai_Fl4dkA"/>
-      <extend xmi:type="uml:Extend" xmi:id="_XAnQMAhrEeiTCai_Fl4dkA" extendedCase="_-XKOMAhqEeiTCai_Fl4dkA" extensionLocation="_XAn3QAhrEeiTCai_Fl4dkA"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fVgVwAjzEeiN8YXa-N_XRQ" name="Make a Payment"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_7IMZkAjzEeiN8YXa-N_XRQ" name="Authenticate"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="__9iX4AjzEeiN8YXa-N_XRQ" name="Enter search details">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_5OPY4Aj0EeiN8YXa-N_XRQ" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Cg5FcAj0EeiN8YXa-N_XRQ" name="Search for a service">
+      <include xmi:type="uml:Include" xmi:id="_tnVnMAj0EeiN8YXa-N_XRQ" addition="__9iX4AjzEeiN8YXa-N_XRQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yGvxwAj0EeiN8YXa-N_XRQ" name="Select an item">
+      <extend xmi:type="uml:Extend" xmi:id="_5NyF4Aj0EeiN8YXa-N_XRQ" extendedCase="__9iX4AjzEeiN8YXa-N_XRQ" extensionLocation="_5OPY4Aj0EeiN8YXa-N_XRQ"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9ghGYAj0EeiN8YXa-N_XRQ" name="ExtensionPoint1"/>
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_DrmIkAj1EeiN8YXa-N_XRQ" name="ExtensionPoint2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6tSw0Aj0EeiN8YXa-N_XRQ" name="View details">
+      <extend xmi:type="uml:Extend" xmi:id="_9gf4QAj0EeiN8YXa-N_XRQ" extendedCase="_yGvxwAj0EeiN8YXa-N_XRQ" extensionLocation="_9ghGYAj0EeiN8YXa-N_XRQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_9MndgAj1EeiN8YXa-N_XRQ" name="Update profile"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ET30EAj2EeiN8YXa-N_XRQ" name="Update profil">
+      <include xmi:type="uml:Include" xmi:id="_UmFeUAj2EeiN8YXa-N_XRQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_uyK7QAj3EeiN8YXa-N_XRQ" name="Manage website">
+      <include xmi:type="uml:Include" xmi:id="_9XYmQAj5EeiN8YXa-N_XRQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
     </packagedElement>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_4fPYkAhqEeiTCai_Fl4dkA" memberEnd="_4fQmsQhqEeiTCai_Fl4dkA _4fQmsghqEeiTCai_Fl4dkA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4fP_oAhqEeiTCai_Fl4dkA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4fQmsAhqEeiTCai_Fl4dkA" key="nature" value="UML_Nature"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_O_vBMAjzEeiN8YXa-N_XRQ" memberEnd="_O_xdcQjzEeiN8YXa-N_XRQ _O_yEgAjzEeiN8YXa-N_XRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_O_w2YAjzEeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_O_xdcAjzEeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_4fQmsQhqEeiTCai_Fl4dkA" name="create new account" type="_md9kcAhqEeiTCai_Fl4dkA" association="_4fPYkAhqEeiTCai_Fl4dkA"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_4fQmsghqEeiTCai_Fl4dkA" name="unrigestered actor" type="_Ouv9IAhqEeiTCai_Fl4dkA" association="_4fPYkAhqEeiTCai_Fl4dkA"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_O_xdcQjzEeiN8YXa-N_XRQ" name="view available flight list" type="_-XKOMAhqEeiTCai_Fl4dkA" association="_O_vBMAjzEeiN8YXa-N_XRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_O_yEgAjzEeiN8YXa-N_XRQ" name="online customer" type="_Ouv9IAhqEeiTCai_Fl4dkA" association="_O_vBMAjzEeiN8YXa-N_XRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_QZiswAjzEeiN8YXa-N_XRQ" memberEnd="_QZlwEQjzEeiN8YXa-N_XRQ _QZmXIAjzEeiN8YXa-N_XRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QZkh8AjzEeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_QZlwEAjzEeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QZlwEQjzEeiN8YXa-N_XRQ" name="view available accomodations list" type="_-wq6YAhqEeiTCai_Fl4dkA" association="_QZiswAjzEeiN8YXa-N_XRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_QZmXIAjzEeiN8YXa-N_XRQ" type="_O_vBMAjzEeiN8YXa-N_XRQ" association="_QZiswAjzEeiN8YXa-N_XRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_kwLOsAjzEeiN8YXa-N_XRQ" memberEnd="_kwND4AjzEeiN8YXa-N_XRQ _kwND4QjzEeiN8YXa-N_XRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kwMc0AjzEeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kwMc0QjzEeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kwND4AjzEeiN8YXa-N_XRQ" name="book a service" type="_a7JqUAjzEeiN8YXa-N_XRQ" association="_kwLOsAjzEeiN8YXa-N_XRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_kwND4QjzEeiN8YXa-N_XRQ" name="online customer" type="_Ouv9IAhqEeiTCai_Fl4dkA" association="_kwLOsAjzEeiN8YXa-N_XRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_p0rDUAjzEeiN8YXa-N_XRQ" memberEnd="_p0sRcQjzEeiN8YXa-N_XRQ _p0sRcgjzEeiN8YXa-N_XRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_p0rqYAjzEeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_p0sRcAjzEeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p0sRcQjzEeiN8YXa-N_XRQ" name="make a payment" type="_fVgVwAjzEeiN8YXa-N_XRQ" association="_p0rDUAjzEeiN8YXa-N_XRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_p0sRcgjzEeiN8YXa-N_XRQ" name="online customer" type="_Ouv9IAhqEeiTCai_Fl4dkA" association="_p0rDUAjzEeiN8YXa-N_XRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wkFsMAj0EeiN8YXa-N_XRQ" memberEnd="_wkG6Ugj0EeiN8YXa-N_XRQ _wkHhYAj0EeiN8YXa-N_XRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wkG6UAj0EeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wkG6UQj0EeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wkG6Ugj0EeiN8YXa-N_XRQ" name="search for a service" type="_Cg5FcAj0EeiN8YXa-N_XRQ" association="_wkFsMAj0EeiN8YXa-N_XRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wkHhYAj0EeiN8YXa-N_XRQ" name="online customer" type="_Ouv9IAhqEeiTCai_Fl4dkA" association="_wkFsMAj0EeiN8YXa-N_XRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_oxxJ8Aj1EeiN8YXa-N_XRQ" name="Authentification System"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_wNwaYAj1EeiN8YXa-N_XRQ" memberEnd="_wNxogAj1EeiN8YXa-N_XRQ _wNxogQj1EeiN8YXa-N_XRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wNxBcAj1EeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wNxBcQj1EeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wNxogAj1EeiN8YXa-N_XRQ" name="authentification system" type="_oxxJ8Aj1EeiN8YXa-N_XRQ" association="_wNwaYAj1EeiN8YXa-N_XRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_wNxogQj1EeiN8YXa-N_XRQ" name="authenticate" type="_7IMZkAjzEeiN8YXa-N_XRQ" association="_wNwaYAj1EeiN8YXa-N_XRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_y6efUAj1EeiN8YXa-N_XRQ" name="Service Supplier"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_4vXPEAj1EeiN8YXa-N_XRQ" memberEnd="_4vYdMgj1EeiN8YXa-N_XRQ _4vZEQAj1EeiN8YXa-N_XRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_4vYdMAj1EeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_4vYdMQj1EeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4vYdMgj1EeiN8YXa-N_XRQ" name="service supplier" type="_y6efUAj1EeiN8YXa-N_XRQ" association="_4vXPEAj1EeiN8YXa-N_XRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_4vZEQAj1EeiN8YXa-N_XRQ" name="view available service liste" type="_-XKOMAhqEeiTCai_Fl4dkA" association="_4vXPEAj1EeiN8YXa-N_XRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_CPjL4Aj2EeiN8YXa-N_XRQ" memberEnd="_CPkaAgj2EeiN8YXa-N_XRQ _CPlBEAj2EeiN8YXa-N_XRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CPkaAAj2EeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CPkaAQj2EeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CPkaAgj2EeiN8YXa-N_XRQ" name="update profile" type="_9MndgAj1EeiN8YXa-N_XRQ" association="_CPjL4Aj2EeiN8YXa-N_XRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_CPlBEAj2EeiN8YXa-N_XRQ" name="online customer" type="_Ouv9IAhqEeiTCai_Fl4dkA" association="_CPjL4Aj2EeiN8YXa-N_XRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_XQ2bcAj2EeiN8YXa-N_XRQ" memberEnd="_XQ4QoQj2EeiN8YXa-N_XRQ _XQ43sAj2EeiN8YXa-N_XRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_XQ3pkAj2EeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_XQ4QoAj2EeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XQ4QoQj2EeiN8YXa-N_XRQ" name="update profil" type="_ET30EAj2EeiN8YXa-N_XRQ" association="_XQ2bcAj2EeiN8YXa-N_XRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_XQ43sAj2EeiN8YXa-N_XRQ" name="online customer" type="_Ouv9IAhqEeiTCai_Fl4dkA" association="_XQ2bcAj2EeiN8YXa-N_XRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_jCD_sAj2EeiN8YXa-N_XRQ" name="Payment System"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_pGeZMAj2EeiN8YXa-N_XRQ" memberEnd="_pGfAQgj2EeiN8YXa-N_XRQ _pGfnUAj2EeiN8YXa-N_XRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pGfAQAj2EeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pGfAQQj2EeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pGfAQgj2EeiN8YXa-N_XRQ" name="payment system" type="_jCD_sAj2EeiN8YXa-N_XRQ" association="_pGeZMAj2EeiN8YXa-N_XRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_pGfnUAj2EeiN8YXa-N_XRQ" name="make a payment" type="_fVgVwAjzEeiN8YXa-N_XRQ" association="_pGeZMAj2EeiN8YXa-N_XRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Actor" xmi:id="_76bncAj2EeiN8YXa-N_XRQ" name="Administrator">
+    <generalization xmi:type="uml:Generalization" xmi:id="_HrVpsAj3EeiN8YXa-N_XRQ" general="_Ouv9IAhqEeiTCai_Fl4dkA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_yNPT8Aj3EeiN8YXa-N_XRQ" memberEnd="_yNQiEQj3EeiN8YXa-N_XRQ _yNRJIAj3EeiN8YXa-N_XRQ">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yNP7AAj3EeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yNQiEAj3EeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yNQiEQj3EeiN8YXa-N_XRQ" name="manage users" type="_uyK7QAj3EeiN8YXa-N_XRQ" association="_yNPT8Aj3EeiN8YXa-N_XRQ"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_yNRJIAj3EeiN8YXa-N_XRQ" name="administrator" type="_76bncAj2EeiN8YXa-N_XRQ" association="_yNPT8Aj3EeiN8YXa-N_XRQ"/>
   </packagedElement>
 </uml:Model>
