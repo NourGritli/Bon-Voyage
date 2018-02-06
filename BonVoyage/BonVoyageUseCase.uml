@@ -16,21 +16,19 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_U83FMAhqEeiTCai_Fl4dkA" name="Fill the sign up form"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_bkNzsAhqEeiTCai_Fl4dkA" name="Actor2"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_cCqDMAhqEeiTCai_Fl4dkA" name="Online Reservation System">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_-XKOMAhqEeiTCai_Fl4dkA" name="View Available service liste">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-XKOMAhqEeiTCai_Fl4dkA" name="View Available service list">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FG7R0AhrEeiTCai_Fl4dkA" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_XAn3QAhrEeiTCai_Fl4dkA" name="ExtensionPoint2"/>
-      <include xmi:type="uml:Include" xmi:id="_m6vzYAj0EeiN8YXa-N_XRQ" addition="_Cg5FcAj0EeiN8YXa-N_XRQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_-wq6YAhqEeiTCai_Fl4dkA" name="View Available Accomodations list">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QJFXsAhrEeiTCai_Fl4dkA" name="ExtensionPoint1"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_a7JqUAjzEeiN8YXa-N_XRQ" name="Book a service">
-      <extend xmi:type="uml:Extend" xmi:id="_Drk6cAj1EeiN8YXa-N_XRQ" extendedCase="_yGvxwAj0EeiN8YXa-N_XRQ" extensionLocation="_DrmIkAj1EeiN8YXa-N_XRQ"/>
-      <include xmi:type="uml:Include" xmi:id="_zkOR0AjzEeiN8YXa-N_XRQ" addition="_fVgVwAjzEeiN8YXa-N_XRQ"/>
       <include xmi:type="uml:Include" xmi:id="_9dT20AjzEeiN8YXa-N_XRQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
-      <include xmi:type="uml:Include" xmi:id="_BQexAAj1EeiN8YXa-N_XRQ" addition="_Cg5FcAj0EeiN8YXa-N_XRQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_fVgVwAjzEeiN8YXa-N_XRQ" name="Make a Payment"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_fVgVwAjzEeiN8YXa-N_XRQ" name="Make a Payment">
+      <include xmi:type="uml:Include" xmi:id="_qJJrQAt0EeidGMH_xjD7FQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
+    </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_7IMZkAjzEeiN8YXa-N_XRQ" name="Authenticate"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="__9iX4AjzEeiN8YXa-N_XRQ" name="Enter search details">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_5OPY4Aj0EeiN8YXa-N_XRQ" name="ExtensionPoint1"/>
@@ -43,7 +41,7 @@
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9ghGYAj0EeiN8YXa-N_XRQ" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_DrmIkAj1EeiN8YXa-N_XRQ" name="ExtensionPoint2"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_6tSw0Aj0EeiN8YXa-N_XRQ" name="View details">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_6tSw0Aj0EeiN8YXa-N_XRQ" name="View items details">
       <extend xmi:type="uml:Extend" xmi:id="_9gf4QAj0EeiN8YXa-N_XRQ" extendedCase="_yGvxwAj0EeiN8YXa-N_XRQ" extensionLocation="_9ghGYAj0EeiN8YXa-N_XRQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_9MndgAj1EeiN8YXa-N_XRQ" name="Update profile"/>
