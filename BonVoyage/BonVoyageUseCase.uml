@@ -24,10 +24,12 @@
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QJFXsAhrEeiTCai_Fl4dkA" name="ExtensionPoint1"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_a7JqUAjzEeiN8YXa-N_XRQ" name="Book a service">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_N3pNoA1aEeiKD7EOyDJghg" name="ExtensionPoint1"/>
       <include xmi:type="uml:Include" xmi:id="_9dT20AjzEeiN8YXa-N_XRQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_fVgVwAjzEeiN8YXa-N_XRQ" name="Make a Payment">
       <include xmi:type="uml:Include" xmi:id="_qJJrQAt0EeidGMH_xjD7FQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
+      <include xmi:type="uml:Include" xmi:id="_4XxWQA1aEeiKD7EOyDJghg" addition="_a7JqUAjzEeiN8YXa-N_XRQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_7IMZkAjzEeiN8YXa-N_XRQ" name="Authenticate"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="__9iX4AjzEeiN8YXa-N_XRQ" name="Enter search details">
@@ -50,6 +52,9 @@
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_uyK7QAj3EeiN8YXa-N_XRQ" name="Manage website">
       <include xmi:type="uml:Include" xmi:id="_9XYmQAj5EeiN8YXa-N_XRQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4hDDgA1ZEeiKD7EOyDJghg" name="cancel booking">
+      <extend xmi:type="uml:Extend" xmi:id="_N3kVIA1aEeiKD7EOyDJghg" extendedCase="_a7JqUAjzEeiN8YXa-N_XRQ" extensionLocation="_N3pNoA1aEeiKD7EOyDJghg"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_O_vBMAjzEeiN8YXa-N_XRQ" memberEnd="_O_xdcQjzEeiN8YXa-N_XRQ _O_yEgAjzEeiN8YXa-N_XRQ">
@@ -134,5 +139,12 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_yNQiEQj3EeiN8YXa-N_XRQ" name="manage users" type="_uyK7QAj3EeiN8YXa-N_XRQ" association="_yNPT8Aj3EeiN8YXa-N_XRQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_yNRJIAj3EeiN8YXa-N_XRQ" name="administrator" type="_76bncAj2EeiN8YXa-N_XRQ" association="_yNPT8Aj3EeiN8YXa-N_XRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_9IYbAA1ZEeiKD7EOyDJghg" memberEnd="_9IZCEg1ZEeiKD7EOyDJghg _9IZpIA1ZEeiKD7EOyDJghg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9IZCEA1ZEeiKD7EOyDJghg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9IZCEQ1ZEeiKD7EOyDJghg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9IZCEg1ZEeiKD7EOyDJghg" name="online customer" type="_Ouv9IAhqEeiTCai_Fl4dkA" association="_9IYbAA1ZEeiKD7EOyDJghg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_9IZpIA1ZEeiKD7EOyDJghg" name="cancel booking" type="_4hDDgA1ZEeiKD7EOyDJghg" association="_9IYbAA1ZEeiKD7EOyDJghg"/>
   </packagedElement>
 </uml:Model>
