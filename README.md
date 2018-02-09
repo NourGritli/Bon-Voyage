@@ -1,3 +1,11 @@
+
+# Installing the project on Eclipse Papyrus: 
+  1. git clone https://github.com/NourGritli/Bon-Voyage.git on command line or just download ZIP from the github repository. 
+  2. On eclipse click on : file -> import ->existing project into workspace -> select the project folder . 
+    
+NOTE : you should have Papyrus already installed. To do so : go to HELP -> Install new software -> copy the url of the papyrus  release update site related to your Eclipse version.
+
+
 # Bon-Voyage
  “Bon Voyage team is trying to provide a high level models of the reservation/booking system to build reusable in different platforms, maintainable with low cost and self-explained software product line while adopting the best practices of Model- Driven software Development.”
 
