@@ -7,13 +7,19 @@
 The main services that our system will provide for now are: 
 
 •	Transport reservation/renting (e.g. flight reservation, car rental, etc.)
+
 •	Accommodation reservation (hotel room, etc.)
+
 •	Activities tickets (e.g. Concerts, museums)
+
 The list of the offered service might be extended as we go further in the project.
 
 “Bon Voyage” provides a catalog in which there is many type of services as aforementioned are:
+
 •	Transport reservation
+
 •	Accommodation reservation
+
 •	Activity reservation
 
 The online customer can select one of this services. Then he can search for available offers by specifying the details that suits him the best. For example, when selecting “Transport reservation”, the customer can add the desired mean of transport, the   date, the departure and the destination. Each service has it specific search filters. After the search details confirmation, the systems shows a list of the most pertinent offers in terms of discount. 
