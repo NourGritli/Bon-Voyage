@@ -16,35 +16,25 @@
   <packagedElement xmi:type="uml:UseCase" xmi:id="_U83FMAhqEeiTCai_Fl4dkA" name="Fill the sign up form"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_bkNzsAhqEeiTCai_Fl4dkA" name="Actor2"/>
   <packagedElement xmi:type="uml:Package" xmi:id="_cCqDMAhqEeiTCai_Fl4dkA" name="Online Reservation System">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_-XKOMAhqEeiTCai_Fl4dkA" name="View Available service list">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-XKOMAhqEeiTCai_Fl4dkA" name="search on website">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FG7R0AhrEeiTCai_Fl4dkA" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_XAn3QAhrEeiTCai_Fl4dkA" name="ExtensionPoint2"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_-wq6YAhqEeiTCai_Fl4dkA" name="View Available Accomodations list">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QJFXsAhrEeiTCai_Fl4dkA" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_a7JqUAjzEeiN8YXa-N_XRQ" name="Book a service">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_a7JqUAjzEeiN8YXa-N_XRQ" name="reserve service">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_N3pNoA1aEeiKD7EOyDJghg" name="ExtensionPoint1"/>
-      <include xmi:type="uml:Include" xmi:id="_9dT20AjzEeiN8YXa-N_XRQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
+      <include xmi:type="uml:Include" xmi:id="_d6DugA9hEeivwphqSoJDPg" addition="_yGvxwAj0EeiN8YXa-N_XRQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_fVgVwAjzEeiN8YXa-N_XRQ" name="Make a Payment">
       <include xmi:type="uml:Include" xmi:id="_qJJrQAt0EeidGMH_xjD7FQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
       <include xmi:type="uml:Include" xmi:id="_4XxWQA1aEeiKD7EOyDJghg" addition="_a7JqUAjzEeiN8YXa-N_XRQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_7IMZkAjzEeiN8YXa-N_XRQ" name="Authenticate"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="__9iX4AjzEeiN8YXa-N_XRQ" name="Enter search details">
-      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_5OPY4Aj0EeiN8YXa-N_XRQ" name="ExtensionPoint1"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_Cg5FcAj0EeiN8YXa-N_XRQ" name="Search for a service">
-      <include xmi:type="uml:Include" xmi:id="_tnVnMAj0EeiN8YXa-N_XRQ" addition="__9iX4AjzEeiN8YXa-N_XRQ"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_yGvxwAj0EeiN8YXa-N_XRQ" name="Select an item">
-      <extend xmi:type="uml:Extend" xmi:id="_5NyF4Aj0EeiN8YXa-N_XRQ" extendedCase="__9iX4AjzEeiN8YXa-N_XRQ" extensionLocation="_5OPY4Aj0EeiN8YXa-N_XRQ"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_yGvxwAj0EeiN8YXa-N_XRQ" name="Select service">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_9ghGYAj0EeiN8YXa-N_XRQ" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_DrmIkAj1EeiN8YXa-N_XRQ" name="ExtensionPoint2"/>
-    </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_6tSw0Aj0EeiN8YXa-N_XRQ" name="View items details">
-      <extend xmi:type="uml:Extend" xmi:id="_9gf4QAj0EeiN8YXa-N_XRQ" extendedCase="_yGvxwAj0EeiN8YXa-N_XRQ" extensionLocation="_9ghGYAj0EeiN8YXa-N_XRQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_9MndgAj1EeiN8YXa-N_XRQ" name="Update profile"/>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_ET30EAj2EeiN8YXa-N_XRQ" name="Update profil">
@@ -53,7 +43,7 @@
     <packagedElement xmi:type="uml:UseCase" xmi:id="_uyK7QAj3EeiN8YXa-N_XRQ" name="Manage website">
       <include xmi:type="uml:Include" xmi:id="_9XYmQAj5EeiN8YXa-N_XRQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_4hDDgA1ZEeiKD7EOyDJghg" name="cancel booking">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4hDDgA1ZEeiKD7EOyDJghg" name="edit reservation">
       <extend xmi:type="uml:Extend" xmi:id="_N3kVIA1aEeiKD7EOyDJghg" extendedCase="_a7JqUAjzEeiN8YXa-N_XRQ" extensionLocation="_N3pNoA1aEeiKD7EOyDJghg"/>
     </packagedElement>
   </packagedElement>
@@ -84,13 +74,6 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_p0sRcQjzEeiN8YXa-N_XRQ" name="make a payment" type="_fVgVwAjzEeiN8YXa-N_XRQ" association="_p0rDUAjzEeiN8YXa-N_XRQ"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_p0sRcgjzEeiN8YXa-N_XRQ" name="online customer" type="_Ouv9IAhqEeiTCai_Fl4dkA" association="_p0rDUAjzEeiN8YXa-N_XRQ"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_wkFsMAj0EeiN8YXa-N_XRQ" memberEnd="_wkG6Ugj0EeiN8YXa-N_XRQ _wkHhYAj0EeiN8YXa-N_XRQ">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wkG6UAj0EeiN8YXa-N_XRQ" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wkG6UQj0EeiN8YXa-N_XRQ" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_wkG6Ugj0EeiN8YXa-N_XRQ" name="search for a service" type="_Cg5FcAj0EeiN8YXa-N_XRQ" association="_wkFsMAj0EeiN8YXa-N_XRQ"/>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_wkHhYAj0EeiN8YXa-N_XRQ" name="online customer" type="_Ouv9IAhqEeiTCai_Fl4dkA" association="_wkFsMAj0EeiN8YXa-N_XRQ"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Actor" xmi:id="_oxxJ8Aj1EeiN8YXa-N_XRQ" name="Authentification System"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_wNwaYAj1EeiN8YXa-N_XRQ" memberEnd="_wNxogAj1EeiN8YXa-N_XRQ _wNxogQj1EeiN8YXa-N_XRQ">
@@ -146,5 +129,12 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_9IZCEg1ZEeiKD7EOyDJghg" name="online customer" type="_Ouv9IAhqEeiTCai_Fl4dkA" association="_9IYbAA1ZEeiKD7EOyDJghg"/>
     <ownedEnd xmi:type="uml:Property" xmi:id="_9IZpIA1ZEeiKD7EOyDJghg" name="cancel booking" type="_4hDDgA1ZEeiKD7EOyDJghg" association="_9IYbAA1ZEeiKD7EOyDJghg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_fp0b8A9hEeivwphqSoJDPg" memberEnd="_fp9l4A9hEeivwphqSoJDPg _fp-M8A9hEeivwphqSoJDPg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fp8-0A9hEeivwphqSoJDPg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fp8-0Q9hEeivwphqSoJDPg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fp9l4A9hEeivwphqSoJDPg" name="reserve service" type="_a7JqUAjzEeiN8YXa-N_XRQ" association="_fp0b8A9hEeivwphqSoJDPg"/>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_fp-M8A9hEeivwphqSoJDPg" name="service supplier" type="_y6efUAj1EeiN8YXa-N_XRQ" association="_fp0b8A9hEeivwphqSoJDPg"/>
   </packagedElement>
 </uml:Model>
