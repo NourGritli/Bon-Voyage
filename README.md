@@ -19,7 +19,7 @@ Different kinds of the offers can be defined in the system, but for minimizing a
 
 The online customer can select one of the items by entering details and search for best available offers. For example by selecting “Flights”, specifying date and destination they can receive any offer from airlines in the system. Each of these categories has the specific form of search to get the list of most pertinent results. By selecting an item user can continue the process of making the reservation. In this system, each user needs to be authorized (have an account) and complete the payment with the bank to make the reservation and receive ticket or confirmation. Cancelling the orders are possible before the payment.
 
-#Functional requirements:
+# Functional requirements:
 
 Search: clients search for desired service and the query will be send to suppliers API and the responds will be sent back and be displayed to clients.
 
