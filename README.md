@@ -7,7 +7,7 @@ NOTE : you should have Papyrus already installed. To do so : go to HELP -> Insta
 
 
 # Bon-Voyage
-“Bon Voyage” is a model-based reservation system to leverage modeling benefits in online reservation systems. This system provides information of other companies (suppliers) as models to facilitate the booking process for the end users; for instance reserving airline flights, book hotel rooms or renting cars all in one place. Users can browse items based on the prices or discounts and complete the reservation; they will connect to ‘Baking Systems’ and ‘Suppliers’ to complete reservation process in anytime 24/7 and get tickets.
+“Bon Voyage” is a model-based reservation system to leverage modeling benefits in online reservation systems. This system provides information of other companies (suppliers) as models to facilitate the booking process for the end users; for instance reserving airline flights, book hotel rooms or renting cars all in one place. Users can browse items based on the prices or discounts and complete the reservation; they will connect to ‘Banking Systems’ and ‘Suppliers’ to complete reservation process in anytime 24/7 and get tickets.
 
 Different kinds of the offers can be defined in the system, but for minimizing any future changes in the system, we defined all reservations in three main categories:
 
