@@ -17,7 +17,9 @@ NOTE : you should have Papyrus already installed. To do so : go to HELP -> Insta
 Different kinds of the offers can be defined in the system, but for minimizing any future changes in the system, we defined all reservations in three main categories:
 
 • Transportation items (Flight reservation, car rental, etc.)
+
 • Accommodation items (Hotel room, etc.)
+
 • Activity items (Concerts, museums etc.)
 
 The online customer can select one of the items by entering details and search for best available offers. For example by selecting “Flights”, specifying date and destination they can receive any offer from airlines in the system. Each of these categories has the specific form of search to get the list of most pertinent results. By selecting an item user can continue the process of making the reservation. In this system, each user needs to be authorized (have an account) and complete the payment with the bank to make the reservation and receive ticket or confirmation. Cancelling the orders are possible before the payment and any cancellation after the payment should be based on money return policies of the company.
