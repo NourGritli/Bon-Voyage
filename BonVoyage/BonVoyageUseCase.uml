@@ -15,15 +15,15 @@
   <packagedElement xmi:type="uml:Actor" xmi:id="_Ouv9IAhqEeiTCai_Fl4dkA" name="Online Customer"/>
   <packagedElement xmi:type="uml:UseCase" xmi:id="_U83FMAhqEeiTCai_Fl4dkA" name="Fill the sign up form"/>
   <packagedElement xmi:type="uml:Actor" xmi:id="_bkNzsAhqEeiTCai_Fl4dkA" name="Actor2"/>
-  <packagedElement xmi:type="uml:Package" xmi:id="_cCqDMAhqEeiTCai_Fl4dkA" name="Online Reservation System">
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_-XKOMAhqEeiTCai_Fl4dkA" name="search on website">
+  <packagedElement xmi:type="uml:Package" xmi:id="_cCqDMAhqEeiTCai_Fl4dkA" name="Online reservation system">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_-XKOMAhqEeiTCai_Fl4dkA" name="Search on website">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_FG7R0AhrEeiTCai_Fl4dkA" name="ExtensionPoint1"/>
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_XAn3QAhrEeiTCai_Fl4dkA" name="ExtensionPoint2"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_-wq6YAhqEeiTCai_Fl4dkA" name="View Available Accomodations list">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_QJFXsAhrEeiTCai_Fl4dkA" name="ExtensionPoint1"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_a7JqUAjzEeiN8YXa-N_XRQ" name="reserve service">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_a7JqUAjzEeiN8YXa-N_XRQ" name="Reserve service">
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_N3pNoA1aEeiKD7EOyDJghg" name="ExtensionPoint1"/>
       <include xmi:type="uml:Include" xmi:id="_d6DugA9hEeivwphqSoJDPg" addition="_yGvxwAj0EeiN8YXa-N_XRQ"/>
     </packagedElement>
@@ -37,13 +37,13 @@
       <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_DrmIkAj1EeiN8YXa-N_XRQ" name="ExtensionPoint2"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_9MndgAj1EeiN8YXa-N_XRQ" name="Update profile"/>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_ET30EAj2EeiN8YXa-N_XRQ" name="Update profil">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_ET30EAj2EeiN8YXa-N_XRQ" name="Update profile">
       <include xmi:type="uml:Include" xmi:id="_UmFeUAj2EeiN8YXa-N_XRQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
     </packagedElement>
     <packagedElement xmi:type="uml:UseCase" xmi:id="_uyK7QAj3EeiN8YXa-N_XRQ" name="Manage website">
       <include xmi:type="uml:Include" xmi:id="_9XYmQAj5EeiN8YXa-N_XRQ" addition="_7IMZkAjzEeiN8YXa-N_XRQ"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:UseCase" xmi:id="_4hDDgA1ZEeiKD7EOyDJghg" name="edit reservation">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_4hDDgA1ZEeiKD7EOyDJghg" name="Edit reservation">
       <extend xmi:type="uml:Extend" xmi:id="_N3kVIA1aEeiKD7EOyDJghg" extendedCase="_a7JqUAjzEeiN8YXa-N_XRQ" extensionLocation="_N3pNoA1aEeiKD7EOyDJghg"/>
     </packagedElement>
   </packagedElement>
