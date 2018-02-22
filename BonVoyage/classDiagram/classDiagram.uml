@@ -3,20 +3,9 @@
   <packageImport xmi:type="uml:PackageImport" xmi:id="_dM7Y4BgLEeiJlalEYLamVA">
     <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
   </packageImport>
-  <packagedElement xmi:type="uml:Class" xmi:id="_dnTAsBgLEeiJlalEYLamVA" name="Bon Voyage">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_GtAYwxgXEeiJlalEYLamVA" name="catalogue" type="_K5uVABgQEeiJlalEYLamVA" aggregation="composite" association="_GtAYwBgXEeiJlalEYLamVA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_GtAYxBgXEeiJlalEYLamVA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_GtAYxRgXEeiJlalEYLamVA" value="*"/>
-    </ownedAttribute>
-  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_dnTAsBgLEeiJlalEYLamVA" name="Bon Voyage"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_GUZvsBgQEeiJlalEYLamVA" name="User"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_I1DHgBgQEeiJlalEYLamVA" name="Supplier"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_K5uVABgQEeiJlalEYLamVA" name="Catalogue">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_muzzQhgVEeiJlalEYLamVA" name="service" type="_OeIP4BgQEeiJlalEYLamVA" aggregation="composite" association="_muqpUBgVEeiJlalEYLamVA">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_muzzQxgVEeiJlalEYLamVA" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_muzzRBgVEeiJlalEYLamVA" value="*"/>
-    </ownedAttribute>
-  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_OeIP4BgQEeiJlalEYLamVA" name="Service"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_QrCzYBgQEeiJlalEYLamVA" name="Booking"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_XOG3wBgQEeiJlalEYLamVA" name="Payment"/>
@@ -32,12 +21,6 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_4lbzYBgREeiJlalEYLamVA" name="Tranportation">
     <generalization xmi:type="uml:Generalization" xmi:id="_CEVZ8BgWEeiJlalEYLamVA" general="_OeIP4BgQEeiJlalEYLamVA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_muqpUBgVEeiJlalEYLamVA" memberEnd="_muzzQhgVEeiJlalEYLamVA _muzzRRgVEeiJlalEYLamVA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_muzzQBgVEeiJlalEYLamVA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_muzzQRgVEeiJlalEYLamVA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_muzzRRgVEeiJlalEYLamVA" name="catalogue" type="_K5uVABgQEeiJlalEYLamVA" association="_muqpUBgVEeiJlalEYLamVA"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_EQRGABgWEeiJlalEYLamVA" name="Flight">
     <generalization xmi:type="uml:Generalization" xmi:id="_tPL6kBgWEeiJlalEYLamVA" general="_4lbzYBgREeiJlalEYLamVA"/>
   </packagedElement>
@@ -45,12 +28,6 @@
     <generalization xmi:type="uml:Generalization" xmi:id="_t6ycUBgWEeiJlalEYLamVA" general="_4lbzYBgREeiJlalEYLamVA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_AUyScBgXEeiJlalEYLamVA"/>
-  <packagedElement xmi:type="uml:Association" xmi:id="_GtAYwBgXEeiJlalEYLamVA" memberEnd="_GtAYwxgXEeiJlalEYLamVA _GtAYxhgXEeiJlalEYLamVA">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GtAYwRgXEeiJlalEYLamVA" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GtAYwhgXEeiJlalEYLamVA" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_GtAYxhgXEeiJlalEYLamVA" name="bon voyage" type="_dnTAsBgLEeiJlalEYLamVA" association="_GtAYwBgXEeiJlalEYLamVA"/>
-  </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_XuotwBgXEeiJlalEYLamVA"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_tLvywBgbEeiJlalEYLamVA"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_LSK-UBgdEeiJlalEYLamVA"/>
@@ -58,6 +35,25 @@
     <generalization xmi:type="uml:Generalization" xmi:id="_mkhVMBgdEeiJlalEYLamVA" general="_hpNvQBgREeiJlalEYLamVA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Association" xmi:id="_n_WUcBgdEeiJlalEYLamVA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_n_QnIBgYEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_GxC5UBgZEeiWD-VwC2WWZA" name="Reward"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_IGSN8BgZEeiWD-VwC2WWZA" name="Reservate History"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_O8q28BgZEeiWD-VwC2WWZA" name="Refund"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_PyoOkBgZEeiWD-VwC2WWZA" name="Review"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_TBhzgBgZEeiWD-VwC2WWZA" name="Room"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_W1E9oBgZEeiWD-VwC2WWZA" name="City"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_d-a-4BgZEeiWD-VwC2WWZA" name="Aeroport"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_hHuSIBgZEeiWD-VwC2WWZA" name="Hold">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_3cNn4BgZEeiWD-VwC2WWZA" annotatedElement="_hHuSIBgZEeiWD-VwC2WWZA">
+      <body></body>
+    </ownedComment>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_3yqZABgZEeiWD-VwC2WWZA" name="available"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5p4ZUBgZEeiWD-VwC2WWZA" name="Class1"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_eXBaMBgbEeiWD-VwC2WWZA" name="Facture"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ow_pQBgcEeiWD-VwC2WWZA" name="Class2"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_JQvcoBgeEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_NnW3kBgeEeiWD-VwC2WWZA"/>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_FpMPjhgQEeiJlalEYLamVA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FpMPjxgQEeiJlalEYLamVA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="system.profile.uml#_FpMPghgQEeiJlalEYLamVA"/>
