@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:book="http:///schemas/book/_QhB_YxeaEeihIIJFZUA7vg/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:login="http:///schemas/login/_ZeJrYxeaEeihIIJFZUA7vg/0" xmlns:test="http:///schemas/test/_8gdNABeZEeihIIJFZUA7vg/0" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/book/_QhB_YxeaEeihIIJFZUA7vg/0 book.profile.uml#_QhCmcBeaEeihIIJFZUA7vg http:///schemas/login/_ZeJrYxeaEeihIIJFZUA7vg/0 login.profile.uml#_ZeKScReaEeihIIJFZUA7vg http:///schemas/test/_8gdNABeZEeihIIJFZUA7vg/0 test.profile.uml#_8gdNAheZEeihIIJFZUA7vg">
+  <uml:Model xmi:id="_M6ADwBeZEeihIIJFZUA7vg" name="BonVoyageTest">
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_M-GgoBeZEeihIIJFZUA7vg">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Class" xmi:id="_QAnPYBeZEeihIIJFZUA7vg" name="Bon Voyage"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="__9t-EBeZEeihIIJFZUA7vg" name="User"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_CYYpsBeaEeihIIJFZUA7vg" name="Service"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_FxG5ABeaEeihIIJFZUA7vg" name="Catalogue"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_I6QbQBeaEeihIIJFZUA7vg" name="Booking"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RW7FkBeaEeihIIJFZUA7vg" name="Payment"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_Wq0BEBeaEeihIIJFZUA7vg" name="Login"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_akMGYBeaEeihIIJFZUA7vg" name="Supplier"/>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ikj2QBeaEeihIIJFZUA7vg" name="Class1"/>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_8gdNDheZEeihIIJFZUA7vg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_8gdNDxeZEeihIIJFZUA7vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="test.profile.uml#_8gdNAheZEeihIIJFZUA7vg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="test.profile.uml#_8gbX0BeZEeihIIJFZUA7vg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_QhCmfBeaEeihIIJFZUA7vg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_QhCmfReaEeihIIJFZUA7vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="book.profile.uml#_QhCmcBeaEeihIIJFZUA7vg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="book.profile.uml#_QhAxQBeaEeihIIJFZUA7vg"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ZeKSfReaEeihIIJFZUA7vg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZeKSfheaEeihIIJFZUA7vg" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="login.profile.uml#_ZeKScReaEeihIIJFZUA7vg"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="login.profile.uml#_ZeIdQBeaEeihIIJFZUA7vg"/>
+    </profileApplication>
+  </uml:Model>
+  <test:entity xmi:id="_8gd0EBeZEeihIIJFZUA7vg" base_Class="_QAnPYBeZEeihIIJFZUA7vg"/>
+  <test:entity xmi:id="_B1_uUBeaEeihIIJFZUA7vg" base_Class="__9t-EBeZEeihIIJFZUA7vg"/>
+  <test:entity xmi:id="_FM8cABeaEeihIIJFZUA7vg" base_Class="_CYYpsBeaEeihIIJFZUA7vg"/>
+  <test:entity xmi:id="_IWSLgBeaEeihIIJFZUA7vg" base_Class="_FxG5ABeaEeihIIJFZUA7vg"/>
+  <book:control xmi:id="_QhCmfheaEeihIIJFZUA7vg" base_Class="_I6QbQBeaEeihIIJFZUA7vg"/>
+  <book:control xmi:id="_UKGX0BeaEeihIIJFZUA7vg" base_Class="_RW7FkBeaEeihIIJFZUA7vg"/>
+  <login:boundary xmi:id="_ZeK5gBeaEeihIIJFZUA7vg" base_Class="_Wq0BEBeaEeihIIJFZUA7vg"/>
+  <test:entity xmi:id="_hKzOABeaEeihIIJFZUA7vg" base_Class="_akMGYBeaEeihIIJFZUA7vg"/>
+</xmi:XMI>
