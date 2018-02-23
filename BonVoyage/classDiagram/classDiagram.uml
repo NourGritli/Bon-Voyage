@@ -158,7 +158,7 @@
     <ownedOperation xmi:type="uml:Operation" xmi:id="__hpBYBjeEeiORMn3JDTrfA" name="postReview"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_DLakcBjfEeiORMn3JDTrfA" name="editReview"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_IlYTwBjUEeiORMn3JDTrfA" memberEnd="_IlaI8RjUEeiORMn3JDTrfA _IlbXEBjUEeiORMn3JDTrfA">
+  <packagedElement xmi:type="uml:Association" xmi:id="_IlYTwBjUEeiORMn3JDTrfA" name="returns" memberEnd="_IlaI8RjUEeiORMn3JDTrfA _IlbXEBjUEeiORMn3JDTrfA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_IlZh4BjUEeiORMn3JDTrfA" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_IlaI8BjUEeiORMn3JDTrfA" key="nature" value="UML_Nature"/>
     </eAnnotations>
