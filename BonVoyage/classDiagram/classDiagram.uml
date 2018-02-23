@@ -14,6 +14,10 @@
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_3735ABgREeiJlalEYLamVA" name="Hotel">
     <generalization xmi:type="uml:Generalization" xmi:id="_Ci5lQBgWEeiJlalEYLamVA" general="_OeIP4BgQEeiJlalEYLamVA"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_G8PtoBgiEeiWD-VwC2WWZA" name="room" type="_TBhzgBgZEeiWD-VwC2WWZA" aggregation="composite" association="_G8I_8BgiEeiWD-VwC2WWZA">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_G8QUsBgiEeiWD-VwC2WWZA"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_G8QUsRgiEeiWD-VwC2WWZA" value="1"/>
+    </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_4TWk4BgREeiJlalEYLamVA" name="Activity">
     <generalization xmi:type="uml:Generalization" xmi:id="_DTetoBgWEeiJlalEYLamVA" general="_OeIP4BgQEeiJlalEYLamVA"/>
@@ -34,10 +38,8 @@
   <packagedElement xmi:type="uml:Class" xmi:id="_j8gKEBgdEeiJlalEYLamVA" name="Admin">
     <generalization xmi:type="uml:Generalization" xmi:id="_mkhVMBgdEeiJlalEYLamVA" general="_hpNvQBgREeiJlalEYLamVA"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_n_WUcBgdEeiJlalEYLamVA"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_n_QnIBgYEeiWD-VwC2WWZA"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_GxC5UBgZEeiWD-VwC2WWZA" name="Reward"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_IGSN8BgZEeiWD-VwC2WWZA" name="Reservate History"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_O8q28BgZEeiWD-VwC2WWZA" name="Refund"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_PyoOkBgZEeiWD-VwC2WWZA" name="Review"/>
   <packagedElement xmi:type="uml:Class" xmi:id="_TBhzgBgZEeiWD-VwC2WWZA" name="Room"/>
@@ -48,12 +50,26 @@
       <body></body>
     </ownedComment>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_3yqZABgZEeiWD-VwC2WWZA" name="available"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_5p4ZUBgZEeiWD-VwC2WWZA" name="Class1"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_eXBaMBgbEeiWD-VwC2WWZA" name="Facture"/>
-  <packagedElement xmi:type="uml:Class" xmi:id="_ow_pQBgcEeiWD-VwC2WWZA" name="Class2"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_5p4ZUBgZEeiWD-VwC2WWZA" name="Car"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_JQvcoBgeEeiWD-VwC2WWZA"/>
   <packagedElement xmi:type="uml:Association" xmi:id="_NnW3kBgeEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_mzk9gBggEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_o-adYBggEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_qipQQBggEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xTl_oBggEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_7lfGMBggEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_8plAcBggEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_WPmYYBghEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_6APxQBghEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_G8I_8BgiEeiWD-VwC2WWZA" memberEnd="_G8PtoBgiEeiWD-VwC2WWZA _G8QUshgiEeiWD-VwC2WWZA">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_G8KOEBgiEeiWD-VwC2WWZA" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_G8KOERgiEeiWD-VwC2WWZA" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_G8QUshgiEeiWD-VwC2WWZA" name="hotel" type="_3735ABgREeiJlalEYLamVA" association="_G8I_8BgiEeiWD-VwC2WWZA"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_RdBkwBgiEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_iUAwABgiEeiWD-VwC2WWZA"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_CSRKcBglEeiWD-VwC2WWZA" name="Enum"/>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_FpMPjhgQEeiJlalEYLamVA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FpMPjxgQEeiJlalEYLamVA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="system.profile.uml#_FpMPghgQEeiJlalEYLamVA"/>
