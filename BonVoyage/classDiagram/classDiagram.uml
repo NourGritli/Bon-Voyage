@@ -38,7 +38,20 @@
     </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_pQ3_8BjcEeiORMn3JDTrfA" name="setServiceDetail"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Class" xmi:id="_OeIP4BgQEeiJlalEYLamVA" name="Service"/>
+  <packagedElement xmi:type="uml:Class" xmi:id="_OeIP4BgQEeiJlalEYLamVA" name="Service">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_IR47kBjKEeiUwIGTZEBSiA" name="serviceID">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_a3T-kBjKEeiUwIGTZEBSiA" name="servicePrice" visibility="public">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_i5DAYBjKEeiUwIGTZEBSiA" name="serviceDescription">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_yzIegBjKEeiUwIGTZEBSiA" name="serviceName">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </ownedAttribute>
+  </packagedElement>
   <packagedElement xmi:type="uml:Class" xmi:id="_QrCzYBgQEeiJlalEYLamVA" name="Booking">
     <ownedAttribute xmi:type="uml:Property" xmi:id="_GIA8oBjYEeiORMn3JDTrfA" name="bookingID">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -264,6 +277,16 @@
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_s4H2phjgEeiORMn3JDTrfA" name="bon voyage" type="_dnTAsBgLEeiJlalEYLamVA" association="_s4H2oBjgEeiORMn3JDTrfA"/>
   </packagedElement>
+  <packagedElement xmi:type="uml:Interface" xmi:id="_63VwEBjLEeiUwIGTZEBSiA" name="Subject">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_KgddMBjQEeiUwIGTZEBSiA" name="addObserver"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_L2uFgBjQEeiUwIGTZEBSiA" name="notifyObserver"/>
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_NGJtEBjQEeiUwIGTZEBSiA" name="removeObserver"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_H9rUMBjMEeiUwIGTZEBSiA" client="_I1DHgBgQEeiJlalEYLamVA" supplier="_63VwEBjLEeiUwIGTZEBSiA"/>
+  <packagedElement xmi:type="uml:Interface" xmi:id="__xVoEBjPEeiUwIGTZEBSiA" name="Observer">
+    <ownedOperation xmi:type="uml:Operation" xmi:id="_P3M4YBjQEeiUwIGTZEBSiA" name="update"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Usage" xmi:id="_Fd_B0BjQEeiUwIGTZEBSiA" client="_OeIP4BgQEeiJlalEYLamVA" supplier="__xVoEBjPEeiUwIGTZEBSiA"/>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_FpMPjhgQEeiJlalEYLamVA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FpMPjxgQEeiJlalEYLamVA" source="http://www.eclipse.org/uml2/2.0.0/UML">
       <references xmi:type="ecore:EPackage" href="system.profile.uml#_FpMPghgQEeiJlalEYLamVA"/>
