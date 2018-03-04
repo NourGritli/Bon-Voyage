@@ -280,6 +280,10 @@
     <ownedEnd xmi:type="uml:Property" xmi:id="_s4H2phjgEeiORMn3JDTrfA" name="bon voyage" type="_dnTAsBgLEeiJlalEYLamVA" association="_s4H2oBjgEeiORMn3JDTrfA"/>
   </packagedElement>
   <packagedElement xmi:type="uml:Interface" xmi:id="_63VwEBjLEeiUwIGTZEBSiA" name="Subject">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_xf2vAB_sEeimM6pbpEVYOg" name="observer" type="__xVoEBjPEeiUwIGTZEBSiA" association="_xfsW8B_sEeimM6pbpEVYOg">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_xf2vAR_sEeimM6pbpEVYOg"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_xf3WEB_sEeimM6pbpEVYOg" value="*"/>
+    </ownedAttribute>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_KgddMBjQEeiUwIGTZEBSiA" name="addObserver"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_L2uFgBjQEeiUwIGTZEBSiA" name="notifyObserver"/>
     <ownedOperation xmi:type="uml:Operation" xmi:id="_NGJtEBjQEeiUwIGTZEBSiA" name="removeObserver"/>
@@ -398,6 +402,12 @@
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tSdZAB8REeiVLbkpminY4Q" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_tSi4kh8REeiVLbkpminY4Q" name="ticket" type="_GQi5IB8QEeiVLbkpminY4Q" association="_tSbj0B8REeiVLbkpminY4Q"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_xfsW8B_sEeimM6pbpEVYOg" memberEnd="_xf2vAB_sEeimM6pbpEVYOg _xf3WER_sEeimM6pbpEVYOg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xf1g4B_sEeimM6pbpEVYOg" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xf1g4R_sEeimM6pbpEVYOg" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_xf3WER_sEeimM6pbpEVYOg" name="subject" type="_63VwEBjLEeiUwIGTZEBSiA" association="_xfsW8B_sEeimM6pbpEVYOg"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_FpMPjhgQEeiJlalEYLamVA">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FpMPjxgQEeiJlalEYLamVA" source="http://www.eclipse.org/uml2/2.0.0/UML">
