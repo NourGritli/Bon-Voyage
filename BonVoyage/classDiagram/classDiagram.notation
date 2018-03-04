@@ -369,10 +369,6 @@
         <element xmi:type="uml:Property" href="classDiagram.uml#_8h5qkB8EEeipOtUpDvn34w"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_8i03oR8EEeipOtUpDvn34w"/>
       </children>
-      <children xmi:type="notation:Shape" xmi:id="_usgHYB8MEeiVLbkpminY4Q" type="Property_ClassAttributeLabel">
-        <element xmi:type="uml:Property" href="classDiagram.uml#_urn9oB8MEeiVLbkpminY4Q"/>
-        <layoutConstraint xmi:type="notation:Location" xmi:id="_usgHYR8MEeiVLbkpminY4Q"/>
-      </children>
       <children xmi:type="notation:Shape" xmi:id="_tYJHEB8NEeiVLbkpminY4Q" type="Property_ClassAttributeLabel">
         <element xmi:type="uml:Property" href="classDiagram.uml#_tXaHQB8NEeiVLbkpminY4Q"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_tYJHER8NEeiVLbkpminY4Q"/>
@@ -837,7 +833,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uQNN9R8BEei8ub8q8sbRMA"/>
     </children>
     <element xmi:type="uml:Enumeration" href="classDiagram.uml#_uP5r8B8BEei8ub8q8sbRMA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uQJjkR8BEei8ub8q8sbRMA" x="680" y="900"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_uQJjkR8BEei8ub8q8sbRMA" x="720" y="920"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_aShiEB8CEei8ub8q8sbRMA" type="Enumeration_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_aShiEh8CEei8ub8q8sbRMA" type="Enumeration_NameLabel"/>
@@ -863,7 +859,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aSiJJR8CEei8ub8q8sbRMA"/>
     </children>
     <element xmi:type="uml:Enumeration" href="classDiagram.uml#_aSfF0B8CEei8ub8q8sbRMA"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aShiER8CEei8ub8q8sbRMA" x="920" y="920"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_aShiER8CEei8ub8q8sbRMA" x="880" y="920"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_gnEz4B8DEei8ub8q8sbRMA" type="Enumeration_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_gnEz4h8DEei8ub8q8sbRMA" type="Enumeration_NameLabel"/>
@@ -989,7 +985,7 @@
       <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nU-qxx8NEeiVLbkpminY4Q"/>
     </children>
     <element xmi:type="uml:Enumeration" href="classDiagram.uml#_nU7ncB8NEeiVLbkpminY4Q"/>
-    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nU-DsR8NEeiVLbkpminY4Q" x="520" y="900"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nU-DsR8NEeiVLbkpminY4Q" x="540" y="920"/>
   </children>
   <children xmi:type="notation:Shape" xmi:id="_GQkHQB8QEeiVLbkpminY4Q" type="Class_Shape">
     <children xmi:type="notation:DecorationNode" xmi:id="_GQkHQh8QEeiVLbkpminY4Q" type="Class_NameLabel"/>
