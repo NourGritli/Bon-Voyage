@@ -6,16 +6,17 @@
   <packagedElement xmi:type="uml:StateMachine" xmi:id="_z4JWMChqEeib1IkLOgXnCw" name="Booking State Machine">
     <region xmi:type="uml:Region" xmi:id="_z7IYwChqEeib1IkLOgXnCw" name="Region1">
       <transition xmi:type="uml:Transition" xmi:id="_7NSF0ChsEeib1IkLOgXnCw" name="Request" source="_FHeI8ChrEeib1IkLOgXnCw" target="_JRyNQChrEeib1IkLOgXnCw"/>
-      <transition xmi:type="uml:Transition" xmi:id="_L_UfoChtEeib1IkLOgXnCw" source="_JRyNQChrEeib1IkLOgXnCw" target="_8W4yMChsEeib1IkLOgXnCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_L_UfoChtEeib1IkLOgXnCw" name="book" source="_JRyNQChrEeib1IkLOgXnCw" target="_8W4yMChsEeib1IkLOgXnCw"/>
       <transition xmi:type="uml:Transition" xmi:id="_8-P3sChtEeib1IkLOgXnCw" name="edit Booking" source="_8W4yMChsEeib1IkLOgXnCw" target="_JRyNQChrEeib1IkLOgXnCw"/>
       <transition xmi:type="uml:Transition" xmi:id="_NGBzkChuEeib1IkLOgXnCw" name="Confirmed" source="_8W4yMChsEeib1IkLOgXnCw" target="_c69hYChtEeib1IkLOgXnCw"/>
-      <transition xmi:type="uml:Transition" xmi:id="_WO_jMChuEeib1IkLOgXnCw" name="Completed" source="_c69hYChtEeib1IkLOgXnCw" target="_p8-mMChtEeib1IkLOgXnCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_WO_jMChuEeib1IkLOgXnCw" name="Completed" source="_c69hYChtEeib1IkLOgXnCw" target="_Jr0VUCrFEeip6YJol8Ir9g"/>
       <transition xmi:type="uml:Transition" xmi:id="_aXGoEChuEeib1IkLOgXnCw" name="Cancel" source="_JRyNQChrEeib1IkLOgXnCw" target="_p8-mMChtEeib1IkLOgXnCw"/>
       <transition xmi:type="uml:Transition" xmi:id="_sBe_IChuEeib1IkLOgXnCw" name="Cancel" source="_8W4yMChsEeib1IkLOgXnCw" target="_p8-mMChtEeib1IkLOgXnCw"/>
       <transition xmi:type="uml:Transition" xmi:id="_vBmrwChvEeib1IkLOgXnCw" name="Service unavailable" source="_JRyNQChrEeib1IkLOgXnCw" target="_raQKkChvEeib1IkLOgXnCw"/>
       <transition xmi:type="uml:Transition" xmi:id="_A2IdUChwEeib1IkLOgXnCw" name="Service available" source="_raQKkChvEeib1IkLOgXnCw" target="_8W4yMChsEeib1IkLOgXnCw"/>
-      <transition xmi:type="uml:Transition" xmi:id="_K_yN4ChwEeib1IkLOgXnCw" name="cancel/ wait[t>2]" source="_raQKkChvEeib1IkLOgXnCw" target="_p8-mMChtEeib1IkLOgXnCw"/>
-      <transition xmi:type="uml:Transition" xmi:id="_EgSBkCh1Eeib1IkLOgXnCw" name="wait [t&lt;2min]" source="_raQKkChvEeib1IkLOgXnCw" target="_raQKkChvEeib1IkLOgXnCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_K_yN4ChwEeib1IkLOgXnCw" name="cancel/ unvailable" source="_raQKkChvEeib1IkLOgXnCw" target="_p8-mMChtEeib1IkLOgXnCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_EgSBkCh1Eeib1IkLOgXnCw" name="wait for availability" source="_raQKkChvEeib1IkLOgXnCw" target="_raQKkChvEeib1IkLOgXnCw"/>
+      <transition xmi:type="uml:Transition" xmi:id="_nCFEsCrFEeip6YJol8Ir9g" name="Completed" source="_Jr0VUCrFEeip6YJol8Ir9g" target="_p8-mMChtEeib1IkLOgXnCw"/>
       <subvertex xmi:type="uml:Pseudostate" xmi:id="_FHeI8ChrEeib1IkLOgXnCw" name="Initial1"/>
       <subvertex xmi:type="uml:State" xmi:id="_JRyNQChrEeib1IkLOgXnCw" name="Booking requested">
         <entry xmi:type="uml:StateMachine" xmi:id="_8o4yECh1Eeib1IkLOgXnCw" name="Select service"/>
@@ -27,6 +28,10 @@
       </subvertex>
       <subvertex xmi:type="uml:FinalState" xmi:id="_p8-mMChtEeib1IkLOgXnCw" name="FinalState1"/>
       <subvertex xmi:type="uml:State" xmi:id="_raQKkChvEeib1IkLOgXnCw" name="Booking unavailable"/>
+      <subvertex xmi:type="uml:State" xmi:id="_Jr0VUCrFEeip6YJol8Ir9g" name="Payment" submachine="_ZeLa0CrFEeip6YJol8Ir9g"/>
     </region>
+  </packagedElement>
+  <packagedElement xmi:type="uml:StateMachine" xmi:id="_ZeLa0CrFEeip6YJol8Ir9g" name="Payment" submachineState="_Jr0VUCrFEeip6YJol8Ir9g">
+    <region xmi:type="uml:Region" xmi:id="_UJIMQCrGEeip6YJol8Ir9g" name="Region1"/>
   </packagedElement>
 </uml:Model>
