@@ -107,8 +107,8 @@ do{
 		else {
 			System.out.println("Sorry wrong type");
 		}
-	}while(t!=7);
-	if (n >= 6) {
+	}while(t!=5);
+	if (n >= 4) {
 	Search sch = new Search(np,isone);
 	ServiceItem flt = new ServiceItem();
 	flt.setSource(src);
@@ -129,7 +129,7 @@ do{
         tvr.SearchServiceItems();
 	}
 
-	if(n<6) {
+	if(n<4) {
 	System.out.println("Please fill in everything");
 	}
 }
@@ -244,7 +244,7 @@ public static void Setup(int account) throws java.io.IOException {
 	String src[] = {"Montreal","Montreal","Montreal","Toronto","Ottawa","NewYork"};
 	String dst[] = {"Toronto","Ottawa","NewYork","Montreal","Montreal","Montreal"};
 	Boolean isdom[] = {true,true,false,true,true,false};
-	String dte_str[] = {"15-04-2016","15-04-2016","15-04-2016","15-04-2016","15-04-2016","15-04-2016"};
+	String dte_str[] = {"20-03-2018","20-03-2018","20-03-2018","20-03-2018","20-03-2018","20-03-2018"};
 	SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy");
 	Date dte = new Date();
 
