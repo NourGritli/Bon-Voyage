@@ -9,7 +9,6 @@ public class BonVoyage {
 static ArrayList<User> usr_list = new ArrayList<User>();
 static ArrayList<ServiceItem> service_list = new ArrayList<ServiceItem>();
 static ArrayList<Bookings> booking_list = new ArrayList<Bookings>();
-static ArrayList<Credit_Debitcard_Interac> Bank_Accounts = new ArrayList<Credit_Debitcard_Interac>();
 static List<Search> sch_list = new ArrayList<Search>();
 
 public static void main(String args[]) throws java.io.IOException
@@ -300,7 +299,6 @@ public static void fakeData(int account) throws java.io.IOException {
 
 
 	for(int i=0; i<2; i++) {
-	Credit_Debitcard_Interac cards = new Credit_Debitcard_Interac(cardnum[i],cardname[i],Expry[i],cvv[i],amt[i]);
 	Bank_System bank_acc = new Bank_System();
 	bank_acc.setBankName("DESJARDINS");
 	cards.setBank_system(bank_acc);

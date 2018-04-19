@@ -285,9 +285,7 @@ public class User {
 
 		}
 		if(x == fly.usr_list.size()) {
-			System.out.println("You are Booking service as a Guest ");
-			Credit_Debitcard_Interac cdi = new Credit_Debitcard_Interac();
-			List<Credit_Debitcard_Interac> cdi_list = new ArrayList<Credit_Debitcard_Interac>();
+			System.out.println("You are Booking service as an anonymous user ");
 			String s = "Bank";
 			cdi.setAmount(300);
 			cdi.setModeofpayment(s);
@@ -299,10 +297,9 @@ public class User {
 			else if(y==1) {
 				cdi.CreateTransaction();
 				if(cdi.getTransactionID() != null) {
-					Bank_System bank = new Bank_System("Scotiabank");
+					Bank_System bank = new Bank_System("DesJardins");
 					cdi.setBank_system(bank);
 					cdi_list.add(cdi);
-					bank.setCredit_debitcard_interac(cdi_list);
 					Integer ret = bank.ValidateTransaction();
 					if(ret==1) {
 
