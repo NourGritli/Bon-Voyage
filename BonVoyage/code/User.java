@@ -170,7 +170,7 @@ public class User {
 	 */
 	public void SearchServiceItems() throws java.io.IOException {
 		// TODO Auto-generated method
-		System.out.println("Search Results \n ");
+		System.out.println("TARA ! Is this what you're looking for ? \n ");
 		int n =0, bk=0,b=3;
 		BonVoyage fly = new BonVoyage();
 		ServiceItem flt = new ServiceItem();
@@ -181,11 +181,11 @@ public class User {
 
 			if(flt.getSource().equals(flt_sch.getSource()) && flt.getDestination().equals(flt_sch.getDestination())) {
 				if(flt.getDate_ServiceItem().equals(flt_sch.getDate_ServiceItem()) && flt.getIsNational().equals(flt_sch.getIsNational())) {
-					System.out.println("---ServiceItem No.---ServiceItem Date---NO.Seats---Source---Dest---");
+					System.out.println("---Id ********* Date ************* Dep ************* Dest ---");
 					System.out.println("");
 					bk = bk+1;
 					SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy");
-					System.out.println("---"+flt.getServiceItemNo()+"--------"+df.format(flt.getDate_ServiceItem())+"----"+flt.getCapacity()+"----"+flt.getSource()+"----"+flt.getDestination());
+					System.out.println("*********"+flt.getServiceItemNo()+"*********"+df.format(flt.getDate_ServiceItem())+"*********"+flt.getCapacity()+"*********"+flt.getSource()+"*********"+flt.getDestination());
 				}
 
 			}
@@ -195,7 +195,7 @@ public class User {
 			}
 		}
 		if ( n == fly.ServiceItem_list.size()) {
-			System.out.println("Sorry!!! No ServiceItems Found");							}
+			System.out.println("Oups, sounds like we didn't find what service you're looking for");							}
 
 		if (search.get(b).getIsOneWay().equals(false)) {
 			n =0;
@@ -205,8 +205,8 @@ public class User {
 
                         	if(flt.getSource().equals(flt_sch.getDestination()) && flt.getDestination().equals(flt_sch.getSource())) {
                                 	if(flt.getDate_ServiceItem().equals(flt_sch.getDate_ServiceItem()) && flt.getIsNational().equals(flt_sch.getIsNational())) {
-                        			System.out.println("\n Return ServiceItem Details");
-	                        		System.out.println("---ServiceItem No.---ServiceItem Date---NO.Seats---Source---Dest---");
+                        			System.out.println("\n Details");
+	                        		System.out.println("---Id ********* Date ************* Dep ************* Dest ---");
 			                        System.out.println("");
 						bk = bk+1;
                 	                        SimpleDateFormat df = new SimpleDateFormat("dd-MM-yyyy");
@@ -220,13 +220,13 @@ public class User {
                         	}
                 	}
                 	if ( n == fly.ServiceItem_list.size()) {
-                        	System.out.println("Sorry!!! No ServiceItems Found");
+                        	System.out.println("Oups, sounds like we didn't find what service you're looking for");
 
 			}
 		}
 		if (bk != 0) {
                         System.out.println("\n" + bk + " ServiceItems Found");
-                        System.out.println("Do you want to book the ServiceItems found: (Enter \'yes\' to book or \'no\'to quit)");
+                        System.out.println("Now that you found the service do you wanna continue and reserve this item: (Type \'YES\' to book or \'no\')");
 			String bk_str = read.GetString();
 			if (bk_str.equals("yes")) {
 				BookServiceItems(b);
@@ -244,11 +244,11 @@ public class User {
 		ServiceItem flt = new ServiceItem();
 		Integer n =0;
 		List<Integer> bk_list = new ArrayList<Integer>();
-		System.out.println("Enter no of ServiceItems you wish to book");
+		System.out.println("please type in the ID of the Service you want to reserve");
 		Integer n_fl = read.GetInt();
 		do {
 		for(int i=0;i<n_fl;i++) {
-			System.out.println("Enter the ServiceItemNo: " +(i+1));
+			System.out.println("service Id: " +(i+1));
 			String fl_no = read.GetString();
 			for(int j=0; j<fly.ServiceItem_list.size();j++) {
 				flt = (ServiceItem)fly.ServiceItem_list.elementAt(j);
@@ -265,7 +265,7 @@ public class User {
 		}
 		if(n==((n_fl) * fly.ServiceItem_list.size()))
 		{
-			System.out.println("ServiceItem no is invalid: Please enter correct ServiceItem no and bklist size " +bk_list.size() );
+			System.out.println("ID not found: Please type in the correct ID and the number of services you wanna book" +bk_list.size() );
 		}
 
 		}while(n_fl != bk_list.size());
@@ -277,7 +277,7 @@ public class User {
 			if(m.getName().equals(Name) && m.getAge().equals(Age))
 			{
 
-				System.out.println("you are a AuthenticatedUser ");
+				System.out.println("AuthenticatedUser !");
 			}
 			else {
 				x=x+1;
@@ -285,7 +285,7 @@ public class User {
 
 		}
 		if(x == fly.usr_list.size()) {
-			System.out.println("You are Booking ServiceItem as a Guest ");
+			System.out.println("Unkown User !");
 			paymentMethod cdi = new paymentMethod();
 			List<paymentMethod> cdi_list = new ArrayList<paymentMethod>();
 			String s = "Bank";
@@ -299,25 +299,25 @@ public class User {
 			else if(y==1) {
 				cdi.CreateTransaction();
 				if(cdi.getTransactionID() != null) {
-					Bank_System bank = new Bank_System("Scotiabank");
+					Bank_System bank = new Bank_System("DESJARDINS");
 					cdi.setBank_system(bank);
 					cdi_list.add(cdi);
 					bank.setpaymentMethod(cdi_list);
 					Integer ret = bank.ValidateTransaction();
 					if(ret==1) {
 
-						System.out.println("Bank Validation Success");
+						System.out.println("Bank info valid");
 						Bookings book = new Bookings((b),300,"1A 1B 1C",15);
 						book.setuser(this);
 						List<Bookings> book_list = new ArrayList<Bookings>();
 						book_list.add(book);
 						setBookings(book_list);
 						fly.booking_list.addElement(book);
-						System.out.println("Booking Successful BookingID:" +book.getBookingID());
+						System.out.println("Reservation is done !  ID of your purchase :" +book.getBookingID());
 
 					}
 					else if(ret==2) {
-						System.out.println("Bank Validation Failed");
+						System.out.println("Bank info not valid");
 						return;
 					}
 				}

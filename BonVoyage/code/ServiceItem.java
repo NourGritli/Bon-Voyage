@@ -5,7 +5,7 @@ import java.io.*;
 import java.util.List;
 
 
-  // we reduced serviceItem to a flight example for simplicity purpose ! 
+  // we reduced serviceItem to a flight example for simplicity purpose !
 
 public class ServiceItem {
 

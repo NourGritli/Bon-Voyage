@@ -67,9 +67,7 @@ do{
 	System.out.println("2.Destination");
 	System.out.println("3.Date");
 	System.out.println("4.No of Passengers");
-	System.out.println("5.IsNational ::: Enter \'true\' for National OR \'false\' for International");
-	System.out.println("6.IsOneway ::: Enter \'true\' for oneway OR \'false\' for Return");
-	System.out.println("7.quit");
+	System.out.println("5.quit");
 	System.out.println("Enter the option number now example 1 for Departure:");
 	do
 	{
@@ -101,25 +99,13 @@ do{
 		        np = read.GetInt();
 			n++;
 		}
+
+
 		else if (t == 5) {
-	        	System.out.println("Answer Travel IsNational  :");
-			String isdom_str = read.GetString();
-			Scanner sc = new Scanner(isdom_str);
-			isdom = sc.nextBoolean();
-			n++;
-		}
-		else if (t == 6) {
-	        	System.out.println("Answer Travel IsOneway  :");
-			String isone_str = read.GetString();
-			Scanner scan = new Scanner(isone_str);
-			isone = scan.nextBoolean();
-			n++;
-		}
-		else if (t == 7) {
-	        	System.out.println("Exited from Entering search options :");
+	        	System.out.println("Exit :");
 		}
 		else {
-			System.out.println("Wrong Option Entered Try again");
+			System.out.println("Sorry wrong type");
 		}
 	}while(t!=7);
 	if (n >= 6) {
@@ -144,7 +130,7 @@ do{
 	}
 
 	if(n<6) {
-	System.out.println("Not all the Required search options are entered--- Exiting search menu back to main menu");
+	System.out.println("Please fill in everything");
 	}
 }
 
@@ -171,21 +157,21 @@ else if(searchIn ==4) {
 
 	break;
  case 2:
-	System.out.println("Choose your username:");
+	System.out.println("Enter your username:");
         String uname = read.GetString();
-        System.out.println("Choose your password");
+        System.out.println("Enter your pswd");
         String pword = read.GetString();
         System.out.println("Enter your Name:");
         String mname = read.GetString();
         System.out.println("Enter your Age:");
         int age = read.GetInt();
-        System.out.println("Enter your Email Address:");
+        System.out.println("Enter your Email:");
         String Email = read.GetString();
-        System.out.println("Enter your PhoneNumber:");
+        System.out.println("Enter your Phone Number:");
         int PhoneNumber = read.GetInt();
         System.out.println("Enter your Location:");
         String Loc = read.GetString();
-        System.out.println("Enter your Gender:M for Male & F for Female");
+        System.out.println("Enter your Gender----M for Male & F for Female");
         char Gender = read.GetChar();
  	AuthenticatedUser mbr = new AuthenticatedUser(uname,pword,mname,age,Email,Loc,PhoneNumber,Gender);
 	accid = accid+1;
@@ -226,10 +212,10 @@ else if(searchIn ==4) {
         bks.CancelBooking();
 	break;
  case 6:
- 	System.out.println("\n ---------Thanks for visiting BonVoyage-----\n");
+ 	System.out.println("\n ---------BYE-----\n");
         break;
  default:
-	System.out.println("Wrong Menu options Entered\n");
+	System.out.println("Wrong  options \n");
 
         }
  } while(input!=6);
@@ -244,7 +230,7 @@ public static void Setup(int account) throws java.io.IOException {
 	String emails[] = {"test@gmail.com","test@gmail.com","test@gmail.com"};
 
 	Integer cardnum[] = {11111111,22222222};
-	String cardname[] = {"jitin","raki"};
+	String cardname[] = {"omar","test"};
 	Integer Expry[] = {0416,0516};
 	Integer cvv[] = {111,222};
 	Integer amt[] = {500,200};

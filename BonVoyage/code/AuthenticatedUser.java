@@ -13,7 +13,7 @@ public class AuthenticatedUser extends User {
 	 */
 	private String Password;
 	/**
-	 * 
+	 *
 	 */
 	private Account account;
 	/**
@@ -65,23 +65,23 @@ public class AuthenticatedUser extends User {
 			tmp = (AuthenticatedUser)fly.usr_list.elementAt(i);
 			if(tmp.Username.equals(Username) && tmp.Password.equals(Password)) {
                                 System.out.println("\n");
-                                System.out.println("Login Successful");
+                                System.out.println("WOW you just logged in");
                                 System.out.println("\n");
 				System.out.println("welcome " + tmp.getName());
 
 				do
 				{
 					System.out.println("-----------------------\n");
-					System.out.println("BonVoyage- AuthenticatedUser Menu");
+					System.out.println("BonVoyage- Authenticated User Menu");
 					System.out.println("-----------------------\n");
-					System.out.println("1.View Account");
-					System.out.println("2.Modify Account");
+					System.out.println("1.See my profile");
+					System.out.println("2.Edit my profile");
 					System.out.println("3.Logout");
 					input = read.GetInt();
 					switch(input)
 					{
 					case 1:
-						System.out.println("account id " + tmp.account.getAccountID());
+						System.out.println("My id " + tmp.account.getAccountID());
 						tmp.account.View();
 						break;
 					case 2:
@@ -91,7 +91,7 @@ public class AuthenticatedUser extends User {
 						Logout();
 						break;
 					default:
-					        System.out.println("Wrong Menu options Entered\n");
+					        System.out.println("Wrong  options \n");
 
 
 					}
@@ -103,10 +103,13 @@ public class AuthenticatedUser extends User {
 		 }
 
 		 if (n == fly.usr_list.size()) {
-			System.out.println("\n       ************************************************   ");
-			System.out.println("            Username or Password invalid 		        ");
-			System.out.println("            Retry with correct username and password        ");
-			System.out.println("         ************************************************   ");
+			System.out.println("\n       -----------------------------------------------   ");
+			System.out.println("         -----------------------------------------------   ");
+			System.out.println("         -----------------------------------------------   ");
+			System.out.println("           Please Enter Valid password/Username 		        ");
+			System.out.println("         -----------------------------------------------   ");
+			System.out.println("         -----------------------------------------------   ");
+			System.out.println("         -----------------------------------------------   ");
 
 		}
 

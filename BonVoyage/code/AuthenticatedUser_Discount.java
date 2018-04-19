@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 
 
-public class AuthenticatedUser_Points extends Payment {
+public class AuthenticatedUser_Discount extends Payment {
 
 	/**
 	 *
@@ -55,7 +55,7 @@ public class AuthenticatedUser_Points extends Payment {
 		// TODO Auto-generated method
 	 }
 
-	public AuthenticatedUser_Points() {
+	public AuthenticatedUser_Discount() {
 
 	}
 

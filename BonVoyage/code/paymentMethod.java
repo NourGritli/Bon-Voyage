@@ -105,13 +105,13 @@ public class paymentMethod extends Payment {
 	 */
 	public void CreateTransaction() throws java.io.IOException {
 		// TODO Auto-generated method
-	        System.out.println("Enter the Card Number:");
+	        System.out.println("Enter your payment info -- Number:");
         	this.Card_Number = read.GetInt();
-	        System.out.println("Enter the Name on the Card:");
+	        System.out.println("Enter your payment info -- Complete Name:");
         	this.Name_on_Card = read.GetString();
-	        System.out.println("Enter the Expiry date of the card: In this format mmyy");
+	        System.out.println("Enter your payment info --  Expiry date : example : [0922]");
         	this.Expiry_Date = read.GetInt();
-        	System.out.println("Enter the CVV number: see it on back of the card");
+        	System.out.println("Enter your payment info --  CVS : ");
         	this.CVV = read.GetInt();
 		this.TransactionID = this.Name_on_Card;
 	 }
